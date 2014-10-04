@@ -1,0 +1,9 @@
+Simple DNS server
+
+#Usage
+returns a single IP for every A request, set the IP when compiling like this:
+>gcc main.c -DIP='127, 0, 0, 1'
+for different behaviour, modify the source
+
+#License
+GPLv3 unless otherwise specified
